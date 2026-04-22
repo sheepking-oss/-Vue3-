@@ -473,6 +473,11 @@ onMounted(() => {
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
+  color: var(--text-primary);
+}
+
+.style-option * {
+  color: var(--text-primary);
 }
 
 .style-option:hover {

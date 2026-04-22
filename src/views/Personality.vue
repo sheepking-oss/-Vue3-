@@ -527,8 +527,12 @@ onMounted(() => {
   gap: 10px;
   padding: 25px;
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
   transition: all 0.3s ease;
+}
+
+.related-card * {
+  color: var(--text-primary);
 }
 
 .related-card:hover {

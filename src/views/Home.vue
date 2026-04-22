@@ -255,7 +255,11 @@ function toggleFavorite(id) {
   text-align: center;
   padding: 30px 20px;
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
+}
+
+.action-card * {
+  color: var(--text-primary);
 }
 
 .action-icon {
