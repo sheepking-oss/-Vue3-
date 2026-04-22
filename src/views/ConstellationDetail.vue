@@ -425,6 +425,11 @@ onMounted(() => {
   cursor: pointer;
   transition: all 0.3s ease;
   min-width: 80px;
+  color: var(--text-primary);
+}
+
+.action-btn span {
+  color: var(--text-primary);
 }
 
 .action-btn:hover {
@@ -791,8 +796,12 @@ onMounted(() => {
   background: var(--bg-secondary);
   border-radius: 12px;
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
   transition: all 0.3s ease;
+}
+
+.link-item * {
+  color: var(--text-primary);
 }
 
 .link-item:hover {

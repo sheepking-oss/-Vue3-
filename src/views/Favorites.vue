@@ -276,8 +276,12 @@ function clearAll() {
   background: var(--bg-secondary);
   border-radius: 8px;
   text-decoration: none;
-  color: inherit;
+  color: var(--text-primary);
   transition: all 0.3s ease;
+}
+
+.action-link * {
+  color: var(--text-primary);
 }
 
 .action-link:hover {
